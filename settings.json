@@ -1,0 +1,84 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Nako",
+  "editor.fontLigatures": true,
+   "editor.fontSize": 13,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "editor.fontFamily": "JetBrains Mono",
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.formatTool": "gofmt",
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "tabnine.experimentalAutoImports": true,
+  "discord-chat.token": "NjQxMDQ4MDg0NzU5MTgzMzYx.YO4Acw.Aznetzo7nCuMyr8e9L13MwvAOKs",
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "vim.leader": "<space>",
+
+  "vim.useSystemClipboard": true,
+
+  "editor.lineNumbers": "relative",
+
+  "vim.easymotion": true,
+
+  "vim.surround": true,
+
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    }
+  ],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+}
